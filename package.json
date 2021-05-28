@@ -1,0 +1,25 @@
+{
+  "name": "githubrepos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "chokidar": "3",
+    "webpack": "^5.37.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.12.1",
+    "webpack-cli": "3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  }
+}

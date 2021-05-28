@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Repositories</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="card-header">
+                <h3 class="card-title">Github Repositories</h3>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <form autocomplete="off">
+                        <div class="form-group">
+                            <label for="repository">Repository</label>
+                            <input type="text" class="form-control" id="repository" placeholder="Github Repository" autofocus required>
+                            <small id="repositoryHelp" class="form-text text-muted">Type the repository name to add to your list.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </form>
+                </div>
+                <ul class="list-group"></ul>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
